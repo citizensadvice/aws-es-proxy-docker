@@ -14,3 +14,5 @@ RUN apk update && \
   apk del git glide && \
   rm -rf /var/cache/apk/* && \
   go build github.com/abutaha/aws-es-proxy
+
+VOLUME /root/.aws/
